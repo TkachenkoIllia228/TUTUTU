@@ -1,0 +1,122 @@
+nav {
+    background-color: #a6d2d5;
+    font-size: 1.3rem;
+}
+
+.logo {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(f1.jpg);
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 254, 254);
+    font-style: italic;
+    /*курсив*/
+    font-size: 4.5rem;
+}
+
+article{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 254, 254);
+    font-style: italic;
+    /*курсив*/
+    font-size: 4.5rem;
+}
+
+h6,
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 254, 254);
+    font-style: italic;
+    /*курсив*/
+}
+
+.left-text {
+    background-color: #a6d2d5;
+    padding: 2rem;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 8rem;
+}
+
+.coladge {
+    background-image: url(f3.jpg);
+    background-size: cover;
+    padding: 6rem;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.coladge>blockquote {
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.left {
+    padding-left: 2rem;
+    padding-top: 14rem;
+    font-family: 'Yeseva One', cursive;
+}
+
+.right {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.right>ul>li {
+    color: black;
+    font-size: 1.3rem;
+}
+
+.row-4 {
+    background-color: #a6d2d5;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.my-anim-right {
+    transform: translateX(120%);
+    opacity: 0;
+    transition: .8s;
+}
+
+.my-active-right {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.ending {
+    background-color: #6e8c8c;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.phone {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.fa-instagram {
+    color: rgba(202, 25, 25, 0.808);
+    font-size: 25px;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.fa-facebook {
+    color: rgba(36, 36, 196, 0.808);
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.avtor {
+    background-color: #a6d2d5;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Шрифти-->
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/706abb8158.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+
+    <style>
+        nav {
+            background-color: #a6d2d5;
+            font-size: 1.3rem;
+        }
+
+        .logo {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            background-image: url(f22.jpg);
+            height: 450px;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .logo>h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(255, 254, 254);
+            font-style: italic;
+            /*курсив*/
+            font-size: 4.5rem;
+        }
+
+        h2,
+        .ph {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(255, 254, 254);
+            font-style: italic;
+            /*курсив*/
+        }
+
+        .ending {
+            background-color: #6e8c8c;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .phone {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        .fa-instagram {
+            color: rgba(202, 25, 25, 0.808);
+            font-size: 25px;
+            margin-left: 16px;
+            margin-top: 15px;
+        }
+
+        .fa-facebook {
+            color: rgba(36, 36, 196, 0.808);
+            font-size: 25px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+
+        .col-md-6 {
+            display: flex;
+            justify-content: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .container-fluid {
+            background-color: #a6d2d595;
+        }
+
+        .card {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            /*курсив*/
+            border-radius: 30px;
+        }
+    </style>
+
+    <title>Services</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark"> <!--початок панелі навігації-->
+
+        <a href="#" class="navbar-brand">
+          <del>Luvers</del>  
+        </a> <!--логотип-->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation"><!-- кнопка "бургер", куди згортається меню -->
+            <span class="navbar-toggler-icon"></span> <!--Іконта кнопки, три горизонтальні полоски-->
+        </button> <!--кінець кнопки-->
+
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!--початок блоку посилань-->
+            <ul class="navbar-nav"> <!--відкриття списку-->
+                <li class="nav-item "> <!--елемент списку, active додаємо, щоб підсвічувало на якій ми сторінці-->
+                    <a href="index.html" class="nav-link">Головна</a> <!--посилання-->
+                </li>
+                <li class="nav-item ">
+                    <a href="services.html" class="nav-link active">Наші послуги</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="about.html" class="nav-link">Про компанію</a>
+                </li>
+            </ul> <!--кінець списку-->
+        </div> <!--кінець блоку зі списком-->
+    </nav> <!--кінець панелі навігації-->
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col logo">
+                <h1>Luvers</h1>
+                <h2>Послуги</h2>
+            </div>
+        </div>
+        <fieldset>
+        <legend>Послуги</legend>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Сімейне право</h5>
+                        <p class="card-text">
+                           <small> Система правових норм,</small> що регулюють сімейні відносини, тобто особисті та пов’язані з ними
+                            майнові відносини, що виникають між громадянами під час шлюбу, кревності, усиновлення,
+                            прийняття дітей у сім’ю на виховання.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Цивільні справи</h5>
+                        <p class="card-text"> <samp>Oтрасль права, що поєднує правові норми,</samp>  що регулюють майнові, а також
+                            пов’язані та непов’язані з ними особисті немайнові відносини, що виникають між різними
+                            організаціями та громадянами, а також між окремими громадянами</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Кримінальні справи</h5>
+                        <p class="card-text">Галузь права, що регулює суспільні відносини, пов’язані зі скоєнням
+                            злочинних діянь, призначенням покарання та застосування інших заходів кримінально-правового
+                            характеру</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Представництво в суді</h5>
+                        <p class="card-text">Послуга по захисту інтересів в суді від імені та в інтересах замовника.
+                            Наші юристи та адвокати надають послуги по представництву в суді інтересів як для юридичних
+                            так і для фізичних осіб.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Допомога при ДТП</h5>
+                        <p class="card-text"> Рано чи пізно <meter value="10000">багатьом</meter>  з нас доводиться стати свідком або, не дай Боже,
+                            учасником дорожньо-транспортної пригоди. Ми надамо вам професійну кваліфіковану адвокатську
+                            допомогу.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+               
+                
+                <div class="card" style="width: 25rem; height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title"> <pre>Юридичні консультації</pre> </h5>
+                        <p class="card-text">Ми докладаємо всіх зусиль, щоб в вас незалишилося жодного питання без
+                            відповіді. Ми надаємо відповіді на будь-які юридичні питання <s> як устно так і письмово.</s></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</fieldset>
+    </div>
+
+    <footer class="ending">
+        <div class="icons">
+            <a href="#"><i class="fa fa-7px fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-7px fa-instagram"></i></a>
+        </div>
+        <div class="phone">
+            <h5 class="ph">Наш телефон: (+38)-097-554-29-46</h5>
+            <input type="text" name="text" value="text">
+           <select name="" id=""> 
+            <option value="t1">good</option>
+            <option value="t2">good</option>
+            <option value="t3">good</option>
+            </select>
+            <datalist>
+                <option value="t1">good</option>
+                <option value="t2">good</option>
+                <option value="t3"><output>good</output></option>              
+            </datalist>
+
+               
+             
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
